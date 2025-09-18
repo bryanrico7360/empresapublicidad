@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Publimeta S.A.S - Sitio Web
 
-## Getting Started
+Este proyecto es un sitio web informativo para **Publimeta S.A.S**, empresa de publicidad ubicada en Villavicencio, Meta. Fue desarrollado con **Next.js** y **Tailwind CSS**, siguiendo los requisitos planteados en el taller.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Tecnologías utilizadas
+
+* [Next.js](https://nextjs.org/) (App Router, frontend estático)
+* [React](https://react.dev/) (componentización de UI)
+* [Tailwind CSS](https://tailwindcss.com/) (estilos y diseño responsivo)
+
+---
+
+## 📌 Páginas implementadas
+
+* **Inicio (`/`)**
+
+  * Banner principal con eslogan
+  * Breve descripción de la empresa
+  * Servicios destacados con imágenes
+  * Testimonios de clientes
+
+* **Servicios (`/services`)**
+
+  * Listado de servicios ofrecidos
+  * Descripción de cada servicio
+
+* **Contacto (`/contact`)**
+
+  * Formulario de contacto (Nombre, Email, Teléfono, Mensaje)
+  * Información de contacto directo (teléfono, dirección, correo)
+  * Enlaces a redes sociales
+
+* **Nosotros (`/about`)** *(reto extra)*
+
+  * Historia de la empresa
+  * Misión, visión y valores
+  * Imagen del equipo
+
+---
+
+## 🎨 Características
+
+* Diseño limpio, profesional y responsivo
+* Navegación con el sistema de rutas de Next.js
+* Uso de componentes reutilizables (`Header`, `Footer`, `ServiceCard`, `Testimonial`)
+* Estructura visual consistente en todas las páginas
+
+---
+
+## 📂 Estructura principal
+
+```
+src/
+ ├── app/
+ │   ├── about/
+ │   ├── contact/
+ │   ├── services/
+ │   └── page.jsx   # Home
+ ├── components/    # Header, Footer, Cards, etc.
+public/
+ └── images/        # Recursos de imágenes
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ⚡ Ejecución del proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clonar el repositorio
+2. Instalar dependencias
 
-## Learn More
+   ```bash
+   npm install
+   ```
+3. Ejecutar en modo desarrollo
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   ```
+4. Abrir en [http://localhost:3000](http://localhost:3000)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✍️ Proyecto desarrollado como parte del taller para Publimeta S.A.S
